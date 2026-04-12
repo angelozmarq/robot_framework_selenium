@@ -1,0 +1,17 @@
+[project]
+name = "robot-framework-selenium"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "robotframework>=7.4.2",
+    "robotframework-jsonlibrary>=0.5",
+    "robotframework-seleniumlibrary>=6.8.0",
+]
+
+[dependency-groups]
+dev = [
+    "robotframework-robocop>=8.2.5",
+    "robotframework-tidy>=4.18.0",
+]

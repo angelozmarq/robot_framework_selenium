@@ -1,0 +1,5 @@
+LBL_LOGIN_LOGO = "class:login_logo"
+TXT_USERNAME = "id:user-name"
+TXT_PASSWORD = "id:password"
+BTN_LOGIN = "id:login-button"
+LBL_APP_LOGO = "class:app_logo"
