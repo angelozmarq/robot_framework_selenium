@@ -1,5 +1,5 @@
 *** Variables ***
-${DEFAULT_BROWSER}    Chrome
+${BROWSER}    Chrome
 ${URL}    https://saucedemo.com
 
 # Test Data Paths

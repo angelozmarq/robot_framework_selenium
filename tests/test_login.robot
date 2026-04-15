@@ -6,7 +6,7 @@ Resource    ../resources/pages/login_page.resource
 Resource    ../utilities/json_utilities.resource
 
 Suite Setup    Read JSON Data    ${LOGIN_DATA}
-Test Setup    Open Application   ${URL}    ${DEFAULT_BROWSER}
+Test Setup    Open Application   ${URL}    ${BROWSER}
 Test Teardown    Teardown Browser
 
 Test Template    Login
@@ -26,6 +26,6 @@ Login
 Standard User Login    standard_user    ${LBL_APP_LOGO}
 Locked Out User Login    locked_out_user    ${LBL_LOGIN_LOGO}
 Problem User Login    problem_user    ${LBL_APP_LOGO}
-Performance Glitch User Login    performance_glitch_user    ${LBL_LOGIN_LOGO}
+Performance Glitch User Login    performance_glitch_user    ${LBL_APP_LOGO}
 
 

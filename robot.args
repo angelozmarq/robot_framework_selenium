@@ -1,0 +1,6 @@
+--outputdir results
+--logtitle "Automation Log Report"
+--reporttitle "Automation Test Report"
+--timestampoutputs
+--variable BROWSER:headlesschrome
+--loglevel INFO
